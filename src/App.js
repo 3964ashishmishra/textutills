@@ -46,8 +46,13 @@ function App() {
       <Switch>
 
 
+    
+      <Route path="/textutills/">
+         <Home  mode={mode} toggleMode={toggleMode} />  
+     </Route>
+
      <Route exact path="/">
-         <Home  mode={mode} toggleMode={toggleMode} />
+         <Home  mode={mode} toggleMode={toggleMode} />  
      </Route>
 
      <Route exact path="/about">
